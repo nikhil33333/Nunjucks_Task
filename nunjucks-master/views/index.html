@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.3/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>UIKit Task</title>
+</head>
+
+<body>
+    <section class="uk-section uk-section-muted">
+        {% block content %}
+        <div class="uk-container">
+            <h2 class="title uk-margin-bottom uk-margin-small-top uk-text-center">
+                <b>{{data.heading}}</b>
+            </h2>
+            <div class="uk-grid uk-grid-medium uk-margin-medium-top uk-margin-bottom uk-child-width-1-3@m ">
+                {% for item in data.values %}
+                <div class="media-cards-content uk-first-column uk-grid-margin">
+                    <a href="#" target="_blank" class="uk-text-decoration-none uk-card uk-transition-toggle uk-margin-bottom">
+                        <div class="uk-overflow-hidden uk-border-rounded uk-light uk-position-relative">
+                            <div class="uk-background-cover uk-height-medium uk-transition-scale-up uk-transition-opaque">
+                                <img src={{item.img}} alt="image">
+                            </div>
+                            <div class="uk-position-cover">
+                                <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary"></div>
+                                <div class="uk-transition-slide-bottom uk-position-medium uk-position-bottom uk-text-center ">
+                                    <div class="details">
+                                        <p>{{item.mainText}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text">
+                            <h6 class="uk-text-muted uk-text-normal uk-margin-top uk-margin-remove-bottom">{{item.subHeading}}</h6>
+                            <h3 class="uk-text-bold uk-margin-remove uk-margin-bottom">{{item.subText}}</h3>
+                        </div>
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endblock %}
+    </section>
+</body>
+
+</html>
