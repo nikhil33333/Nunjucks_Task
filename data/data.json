@@ -3,40 +3,45 @@
     "values": [
         {
             "img" : "boosting2x.webp",
+            "alt": "Boosting",
             "mainText" : "Learn how Jaguar TCS Racing securely delivers up to 50 applications and over 250,000 lines of code to their race cars and across their complex environment.",
             "subHeading" : "Ebook",
             "subText" : "Boosting Cyber Resilience with Fortify"
         },
         {
             "img": "img_forum.png",
+            "alt": "image1",
             "mainText" : "Join us for our flagship IM&G customer event on September 7-8, 2022",
             "subHeading" : "Event",
             "subText" : "Information Management & Governance Forum 2022"
         },
         {
             "img" : "3.webp",
+            "alt" : "Radicati",
             "mainText" : "Get the report for a clear and concise analysis of the market for information archiving solutions revealing top players, trail blazers, specialists, and mature players.",
             "subHeading" : "Report",
             "subText" : "The Radicati Group, Inc.—Information Archiving—Market Quadrant 2022"
         },
         {
             "img" : "4.webp",
+            "alt": "Learn",
             "mainText" : "Learn how to take advantage of the opportunities around digital innovation—and avoid the risks.",
             "subHeading" : "Webinar",
             "subText" : "Digital Innovation: Opportunities, Risks, and Responsibilities"
         },
         {
             "img" : "5.webp",
+            "alt" : "Report",
             "mainText" : "This IDC MarketScape study provides an assessment for enterprise automated software quality (ASQ) as one of four assessment views across key areas of the market.",
             "subHeading" : "Report",
             "subText" : "IDC 2022 Vendor Assessment: Software Quality and Continuous Testing"
         },
         {
             "img" : "6.webp",
+            "alt" : "ebook",
             "mainText" : "Learn how Jaguar TCS Racing increases data insights with IDOL's artificial intelligence and Micro Focus Professional Services.",
             "subHeading" : "Ebook",
             "subText" : "Data insights with Speed Using IDOL and Professional Services."
-        }
-        
+        }   
     ]
 }
