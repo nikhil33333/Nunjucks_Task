@@ -12,6 +12,7 @@ nunjucks.configure('views', {
 const data = require("./data/data.json")
 app.use(express.static(__dirname + '/assets'))
 app.get('/', (req, res) => {
-  res.render('main.html', {data: data});
+  res.render('index.html', {data: data});
 });
 
+app.listen(PORT, () => console.dir(`Server running on port ${PORT}`));
