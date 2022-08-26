@@ -10,6 +10,7 @@ nunjucks.configure('views', {
 });
 
 const data = require("./data/data.json")
+
 app.use(express.static(__dirname + '/assets'))
 app.get('/', (req, res) => {
   res.render('index.html', {data: data});
